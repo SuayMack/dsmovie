@@ -26,8 +26,3 @@ header {
 .dsmovie-contact-link {
    margin: 0 0 0 10px;
 }
-
-a, a:hover {
-   text-decoration: none;
-   color: unset;
- }
