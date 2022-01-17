@@ -2,6 +2,12 @@ import Pagination from './../../components/Pagination';
 import MovieCard from './../../components/MovieCard';
 
 function Listing() {
+
+   axios.get(`${BASE_URL}/movies?size12&page=0`)
+   .then(response => {
+      console.log(response.data);
+   })
+
    return (
       <>
          <Pagination />
